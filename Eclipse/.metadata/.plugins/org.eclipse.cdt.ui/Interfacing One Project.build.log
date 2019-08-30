@@ -1,0 +1,22 @@
+16:51:13 **** Build of configuration Debug for project Interfacing One Project ****
+make all 
+Building file: ../src/code.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"src/code.d" -MT"src/code.o" -c -o "src/code.o" "../src/code.c"
+In file included from ../src/code.c:2:0:
+/usr/lib/avr/include/util/delay.h:112:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed" [-Wcpp]
+ # warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+   ^
+Finished building: ../src/code.c
+ 
+Building target: Interfacing One Project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Interfacing One Project.map -mmcu=atmega16 -o "Interfacing One Project.elf"  ./src/code.o   
+avr-gcc: error: One: No such file or directory
+avr-gcc: error: Project.map: No such file or directory
+makefile:45: recipe for target 'Interfacing One Project.elf' failed
+make: *** [Interfacing One Project.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+16:51:13 Build Failed. 2 errors, 1 warnings. (took 130ms)
+

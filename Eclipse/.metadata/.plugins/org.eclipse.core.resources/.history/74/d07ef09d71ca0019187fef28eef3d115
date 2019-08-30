@@ -1,0 +1,21 @@
+#include <avr/io.h>
+#include <util/delay.h>
+#include <avr/interrupt.h>
+
+
+void Timer1_OVF_Init(void){
+
+	TCCR1A = (1 << FOC1A); // Channel 1 is non-PWM
+
+	// CTC Mode
+	// 1024 Prescaler
+	TCCR1B = (1 << WGM12) | (1 << CS10) | (1 << CS12);
+}
+
+int main(){
+
+
+	while(1){
+
+	}
+}

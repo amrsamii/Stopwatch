@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Interfacing One Project&apos; to &apos;Interfacing_One_Project&apos;" description="Rename resource &apos;Interfacing One Project&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Interfacing One Project" name="Interfacing_One_Project" stamp="1567090341383" updateReferences="true"/>
+</session>

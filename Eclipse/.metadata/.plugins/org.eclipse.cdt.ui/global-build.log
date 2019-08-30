@@ -1,0 +1,17 @@
+13:15:22 **** Incremental Build of configuration Debug for project Interfacing_One_Project ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Interfacing_One_Project.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2016 bytes (12.3% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
